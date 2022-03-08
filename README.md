@@ -1,1 +1,1 @@
-# Portfolio
+Olá, essa foi minha primeira tentativa de fazer um portfólio. Nele quis mostrar mais o que eu consigo fazer, algumas coisas diferentes dos demais projetos e claro o uso completo do inlgês no projeto. 😀
