@@ -87,7 +87,11 @@
 
 @media (max-width: 480px) {
   .about-image {
-    width: 200px;
-    height: 200px;
+    width: 240px;
+    height: 240px;
+  }
+
+  .hero-title {
+    letter-spacing: 0.3em;
   }
 }
