@@ -20,7 +20,7 @@
 
 .hero-title {
   font-size: clamp(2rem, 8vw, 6rem);
-  letter-spacing: clamp(0.2em, 1em, 1em);
+  letter-spacing: clamp(0.1em, 3vw, 1em);
   color: rgba(255, 255, 255, 0.9);
   font-weight: 300;
 }
