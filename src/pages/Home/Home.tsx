@@ -12,7 +12,7 @@ export default function Home() {
 
       {/* ABOUT PREVIEW */}
         <section className="about-preview">
-        <div className="about-inner">
+        <div className="home-about-inner">
             <div className="about-image">
               <img src={profile} alt="profile" />
             </div>
