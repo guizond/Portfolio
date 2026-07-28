@@ -42,7 +42,7 @@
 
   display: grid;
   grid-template-columns: 340px 1fr;
-  gap: 200px;
+  gap: 64px;
   align-items: center;
 }
 
@@ -65,7 +65,7 @@
   font-size: 0.9rem;
   line-height: 1.7;
   color: #444;
-  max-width: 450px;
+  max-width: 600px;
 }
 
 /* =====================
@@ -87,11 +87,7 @@
 
 @media (max-width: 480px) {
   .about-image {
-    width: 240px;
-    height: 240px;
-  }
-
-  .hero-title {
-    letter-spacing: 0.3em;
+    width: 200px;
+    height: 200px;
   }
 }
