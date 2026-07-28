@@ -1,0 +1,132 @@
+.about {
+  width: 100%;
+}
+
+/* =====================
+   FIRST ABOUT (Hero-like)
+===================== */
+
+.first-about {
+  width: 100%;
+  min-height: 100vh;
+  background: #1c1c1c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 64px;
+  padding: 96px clamp(24px, 8vw, 140px);
+  flex-wrap: wrap;
+}
+
+.about-title {
+  font-size: clamp(1.5rem, 4vw, 2.5rem);
+  letter-spacing: 0.6em;
+  color: rgba(255, 255, 255, 0.9);
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+
+.short-about {
+  max-width: 600px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* =====================
+   SECOND ABOUT
+===================== */
+
+.second-about {
+  width: 100%;
+  background: #ffffff;
+  padding: 96px 0;
+  margin: 0 auto;
+  padding-left: clamp(24px, 8vw, 140px);
+  padding-right: clamp(24px, 8vw, 140px);
+}
+
+.top-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+
+.short-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 600px;
+  margin-left: 34rem;
+}
+
+.bottom-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.short-text a,
+.bottom-text a {
+  color: #1c1c1c;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.about-image {
+  width: 340px;
+  height: 340px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-right: 34rem;
+}
+
+.about-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* =====================
+   RESPONSIVE
+===================== */
+
+@media (max-width: 768px) {
+  .top-row {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .short-text {
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+
+  .about-image {
+    order: -1;
+  }
+}
+
+.link {
+  color: #f6c1d1;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
