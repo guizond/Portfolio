@@ -3,7 +3,7 @@
 }
 
 /* =====================
-   FIRST ABOUT (Hero-like)
+   FIRST ABOUT 
 ===================== */
 
 .first-about {
@@ -48,10 +48,11 @@
 
 .top-row {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 64px;
+  grid-template-columns: auto 340px;
+  gap: 240px;
   align-items: center;
   margin-bottom: 80px;
+  justify-content: center;
 }
 
 .short-text {
@@ -62,7 +63,7 @@
   line-height: 1.7;
   color: #444;
   max-width: 600px;
-  margin-left: 34rem;
+  min-width: 0;
 }
 
 .bottom-text {
@@ -91,7 +92,6 @@
   background: #d9d9d9;
   overflow: hidden;
   margin: 0 auto;
-  margin-right: 34rem;
 }
 
 .about-image img {
@@ -108,6 +108,7 @@
   .top-row {
     grid-template-columns: 1fr;
     text-align: center;
+    gap: 40px;
   }
 
   .short-text {
@@ -118,6 +119,13 @@
 
   .about-image {
     order: -1;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-image {
+    width: 240px;
+    height: 240px;
   }
 }
 
