@@ -46,16 +46,17 @@
   align-items: center;
 }
 
-.about-image {
+.home-about-image {
   width: 340px;
   height: 340px;
   border-radius: 50%;
   background: #d9d9d9;
   overflow: hidden;
   margin: 0 auto;
+  min-width: 0;
 }
 
-.about-image img {
+.home-about-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
@@ -66,6 +67,7 @@
   line-height: 1.7;
   color: #444;
   max-width: 600px;
+  min-width: 0;
 }
 
 /* =====================
@@ -82,13 +84,14 @@
   .about-text {
     max-width: 100%;
     margin: 0 auto;
+    min-width: 0;
   }
 }
 
 @media (max-width: 480px) {
-  .about-image {
-    width: 240px;
-    height: 240px;
+  .home-about-image {
+    width: 210px;
+    height: 210px;
   }
 
   .hero-title {
