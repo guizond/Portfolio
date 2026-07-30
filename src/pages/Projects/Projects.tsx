@@ -28,14 +28,7 @@ const projects: Project[] = [
       password: "123456",
     },
     images: [loginPage, homePage, projectsPage],
-  },
-  {
-    id: 2,
-    title: "Portfolio",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis porta elit, eu facilisis ipsum. Vestibulum pretium maximus mauris. Ut id ante ac est congue aliquet in eget. Vestibulum ultricies ac nisi ac gravida laoreet ex orci, id vestibulum sapien consectetur et. Aliquam quis ultricies orci, sit amet efficitur ante. Quisque faucibus vel lectus sed euismod.",
-    images: [],
-  },
+  }
 ];
 
 export default function Projects() {

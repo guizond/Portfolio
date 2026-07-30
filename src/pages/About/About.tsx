@@ -40,6 +40,20 @@ export default function About() {
                 </div>
             </div>
 
+            <div className="cv-download">
+                <p className="curriculum-text">Below you can find my curriculum in both Portuguese and English to know more details about my background and experience.</p>
+
+                <div className="curriculum-buttons">
+                    <a href="/DEV-GuilhermeDorow-PT-BR.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="curriculum-button">Curriculum PT-BR</button>
+                    </a>
+
+                    <a href="/DEV-GuilhermeDorow-PT-BR.pdf" target="_blank" rel="noopener noreferrer">
+                        <button className="curriculum-button">Curriculum EN</button>
+                    </a>
+                </div>
+            </div>
+
             <div className="bottom-text">
                 <p>
                     On my <Link to="/projects" className="link">Projects</Link> page, you'll find a selection of the work I've created, and I keep adding new projects as I continue learning and building.

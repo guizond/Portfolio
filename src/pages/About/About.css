@@ -138,3 +138,70 @@
 .link:hover {
   text-decoration: underline;
 }
+
+/* =====================
+   CURRICULUM SECTION
+===================== */
+
+.cv-download {
+  max-width: 900px;
+  margin: 80px auto 60px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.curriculum-text {
+  font-size: 0.9rem;
+  line-height: 1.7;
+  color: #444;
+  max-width: 600px;
+}
+
+.curriculum-buttons {
+  display: flex;
+  gap: 36px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.curriculum-button {
+  border: none;
+  background: #f6c1d1;
+  color: #1c1c1c;
+  padding: 14px 32px;
+  border-radius: 14px;
+  font-size: 0.8rem;
+  letter-spacing: 0.2em;
+  font-weight: 500;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.curriculum-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.curriculum-button:focus {
+  outline: none;
+}
+
+.curriculum-button:focus-visible {
+  outline: 2px solid #4dabf7;
+  outline-offset: 2px;
+}
+
+@media (max-width: 480px) {
+  .curriculum-buttons {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .curriculum-button {
+    width: 100%;
+  }
+}
